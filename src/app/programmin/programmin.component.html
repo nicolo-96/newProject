@@ -1,0 +1,74 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col title center">
+      <span>{{header}}</span>
+    </div>
+  </div>
+  <div class="row box">
+    <div class="row subtitle">
+      <span>{{subtitle}}</span>
+    </div>
+    <div class="row">
+      <div class="col-2 center-end">
+        <p-calendar
+          [showIcon]="true"
+          [showTime]="true"
+          [showSeconds]="true"
+          [dateFormat]="dateFormat"
+          (onSelect)="onSelectDate($event, -1)"
+        >
+        </p-calendar>
+      </div>
+      <div class="col-2 center-end">
+        <p-calendar
+          [showIcon]="true"
+          [showTime]="true"
+          [showSeconds]="true"
+          [dateFormat]="dateFormat"
+          (onSelect)="onSelectDate($event, 1)"
+        >
+        </p-calendar>
+      </div>
+      <div class="col-2 center-end">
+        <button class="bottom-button-color" (click)="clickButtonFilter()">Filter</button>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col center table-field-lbl">
+          <span>{{title}}</span>
+        </div>
+        <div class="col center table-field-lbl">
+          <span>{{dateBegin}}</span>
+        </div>
+        <div class="col center table-field-lbl">
+          <span>{{dateEnd}}</span>
+        </div>
+      </div>
+      <div class="row table-field-row" *ngFor="let item of list;">
+        <div class="col center table-field-value">
+          <span>{{item.title}}</span>
+        </div>
+        <div class="col center table-field-value">
+          <span>{{formatDateItem(item.dateBegin)}}</span>
+        </div>
+        <div class="col center table-field-value">
+          <span>{{formatDateItem(item.dateEnd)}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col center">
+        <button class="bottom-button-color" (click)="clickButton()">Back</button>
+      </div>
+    </div>
+  </div>
+  <div class="row footer">
+    <div class="col center">
+      <span>Email: {{footer.email}}</span>
+    </div>
+    <div class="col center">
+      <span>Address: {{footer.address}}</span>
+    </div>
+  </div>
+</div>

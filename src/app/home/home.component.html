@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col title center">
+      <span>{{header}}</span>
+    </div>
+  </div>
+  <div class="row box">
+    <div class="col center">
+      <button class="bottom-button-color" (click)="clickButton1()">{{button1.title}}</button>
+    </div>
+    <div class="col center" *ngIf="button2.enabled">
+      <button class="bottom-button-color" (click)="clickButton2()">{{button2.title}}</button>
+    </div>
+  </div>
+  <div class="row footer">
+    <div class="col center">
+      <span>Email: {{footer.email}}</span>
+    </div>
+    <div class="col center">
+      <span>Address: {{footer.address}}</span>
+    </div>
+  </div>
+</div>

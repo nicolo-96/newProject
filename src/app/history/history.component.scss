@@ -1,0 +1,80 @@
+.title{
+  background-color: cornflowerblue;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 2px;
+}
+
+.subtitle{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.footer{
+  background-color: dimgrey;
+  font-style: normal;
+  padding: 12px;
+}
+
+.center{
+  text-align: center;
+}
+
+.box{
+  padding: 10%;
+  background-color: darkcyan;
+  height: 833px;
+}
+
+.table-field-row {
+  border-bottom: 1px solid #FFFFFF;
+  margin: 5px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.table-field-lbl {
+  margin-left: 18px;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #D7E5ED;
+}
+
+.table-field-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #D7E5ED;
+}
+
+.bottom-button-color{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  background: #20498C;
+  border-radius: 9px;
+  color: #D7E5ED;
+  width: 100px;
+  border: unset;
+  height: 30px;
+}
+
+.center-end{
+  text-align: end;
+}

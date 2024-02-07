@@ -1,0 +1,36 @@
+{
+  "films":
+  [
+    {
+      "filmId": "01",
+      "title": "Top gun",
+      "dateBegin": "2024-02-01T00:00:00.000Z",
+      "dateEnd": "2024-02-07T00:00:00.000Z"
+    },
+    {
+      "filmId": "02",
+      "title": "Fast and furios",
+      "dateBegin": "2024-02-01T00:00:00.000Z",
+      "dateEnd": "2024-02-07T00:00:00.000Z"
+    },
+    {
+      "filmId": "03",
+      "title": "The wolf of Wall Street",
+      "dateBegin": "2024-02-08T00:00:00.000Z",
+      "dateEnd": "2024-02-14T00:00:00.000Z"
+    },
+    {
+      "filmId": "04",
+      "title": "Harry Potter",
+      "dateBegin": "2024-02-08T00:00:00.000Z",
+      "dateEnd": "2024-02-14T00:00:00.000Z"
+    },
+    {
+      "filmId": "05",
+      "title": "Dune",
+      "dateBegin": "2024-02-15T00:00:00.000Z",
+      "dateEnd": "2024-02-21T00:00:00.000Z"
+    }
+
+  ]
+}
